@@ -28,12 +28,7 @@ This portfolio is more than just a static page; it's a demonstration of modern f
 
 ---
 
-## 📸 Screenshot
 
-![Portfolio Screenshot](assets/images/readme-screenshot.png)
-*Dark and Light theme views of the portfolio.*
-
----
 
 ## 🛠️ Technology Stack
 
