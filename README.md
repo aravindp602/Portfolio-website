@@ -46,31 +46,6 @@ This project was built from the ground up using core web technologies, demonstra
 
 ---
 
-## 🚀 Running Locally
-
-To run this project on your local machine, follow these simple steps.
-
-### Prerequisites
--   A modern web browser.
--   A local web server to properly handle file paths. The [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension for VS Code is a great option.
-
-### Installation
-
-1.  **Clone the repository:**
-    ```sh
-    git clone https://github.com/aravindp602/portfolio.git
-    ```
-
-2.  **Navigate to the project directory:**
-    ```sh
-    cd portfolio
-    ```
-
-3.  **Open `index.html`:**
-    -   If you have a local server extension like Live Server, right-click on `index.html` and choose "Open with Live Server".
-    -   Alternatively, you can simply open the `index.html` file directly in your browser.
-
----
 
 ## 💡 Key Learnings & Challenges
 
