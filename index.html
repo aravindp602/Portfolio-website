@@ -34,7 +34,13 @@
     <header>
         <nav class="navbar">
             <div class="container">
-                <a href="#hero" class="nav-logo">Aravind P</a>
+                <!-- UPDATED: SVG Logo replaces text logo -->
+                <a href="#hero" class="nav-logo" aria-label="Aravind P - Back to top">
+                    <svg id="logo" width="48" height="48" viewBox="0 0 52 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="logo-path" d="M4 44L14 4L24 44" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path class="logo-path" d="M28 24C28 24 44 24 44 14C44 4, 28 4, 28 4" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
                 <ul class="nav-menu">
                     <li><a href="#about">About</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -68,7 +74,9 @@
             <div class="container">
                 <h2 class="section-title animate-on-scroll fade-in">About Me</h2>
                 <div class="about-content">
-                    <div class="about-image animate-on-scroll slide-in-left"><img src="assets/images/aravind-profile.jpeg" alt="Aravind P - Profile Picture"></div>
+                    <div class="about-image animate-on-scroll slide-in-left">
+                        <img src="assets/images/aravind-profile.jpeg" alt="Aravind P - Profile Picture" loading="lazy">
+                    </div>
                     <div class="about-text animate-on-scroll slide-in-right">
                         <h3>A Passionate Problem-Solver</h3>
                         <p>I'm a Computer Science engineering student from Calicut, Kerala, driven by a deep curiosity for how technology can solve real-world problems. My journey began with a fascination for web development, which grew into a passion for crafting seamless user interfaces and exploring the creative possibilities of game development and AI.</p>
@@ -85,22 +93,16 @@
                 <div class="project-carousel-wrapper">
                     <div class="project-carousel">
                         <div class="project-card animate-on-scroll scale-up">
-                            <div class="project-image-container"><img src="assets/images/project-news-aggregator.jpeg" alt="News Aggregator Project"></div>
+                            <div class="project-image-container"><img src="assets/images/project-news-aggregator.jpeg" alt="News Aggregator Project" loading="lazy"></div>
                             <div class="project-info">
                                 <h3>News Aggregator Software</h3>
-                                <!-- UPDATED CONTENT -->
                                 <p>An intelligent news app that learns from user interactions (likes/views) to deliver a truly personalized "For You" feed using TF-IDF and Cosine Similarity.</p>
-                                <div class="project-tags">
-                                    <span>Streamlit</span>
-                                    <span>Python</span>
-                                    <span>Firebase</span>
-                                    <span>Scikit-learn</span>
-                                </div>
+                                <div class="project-tags"><span>Streamlit</span><span>Python</span><span>Firebase</span><span>Scikit-learn</span></div>
                                 <div class="project-links"><a href="https://github.com/aravindp602/personalised-news-app" target="_blank" class="btn btn-secondary" rel="noopener noreferrer">GitHub <i class="fab fa-github" aria-hidden="true"></i></a></div>
                             </div>
                         </div>
                         <div class="project-card animate-on-scroll scale-up">
-                            <div class="project-image-container"><img src="assets/images/project-hospital-ui.jpeg" alt="Hospital Management System UI"></div>
+                            <div class="project-image-container"><img src="assets/images/project-hospital-ui.jpeg" alt="Hospital Management System UI" loading="lazy"></div>
                             <div class="project-info">
                                 <h3>Hospital Management System UI</h3>
                                 <p><strong>Problem:</strong> Hospital websites are often difficult for patients to navigate.<br><strong>Solution:</strong> A user-friendly UI prototype focused on clear appointment booking and easy access to patient information.</p>
@@ -109,7 +111,7 @@
                             </div>
                         </div>
                         <div class="project-card animate-on-scroll scale-up">
-                             <div class="project-image-container"><img src="assets/images/project-placement-system.webp" alt="Placement Management System"></div>
+                             <div class="project-image-container"><img src="assets/images/project-placement-system.webp" alt="Placement Management System" loading="lazy"></div>
                              <div class="project-info">
                                 <h3>Placement Management System</h3>
                                 <p><strong>Problem:</strong> Students lacked a central hub for placement info.<br><strong>Solution:</strong> Developed the backend for a portal where students can view hiring company data and manage their resumes.</p>
@@ -118,7 +120,7 @@
                             </div>
                         </div>
                         <div class="project-card animate-on-scroll scale-up">
-                            <div class="project-image-container"><img src="assets/images/project-gps-system.jpeg" alt="GPS Navigation System"></div>
+                            <div class="project-image-container"><img src="assets/images/project-gps-system.jpeg" alt="GPS Navigation System" loading="lazy"></div>
                             <div class="project-info">
                                 <h3>GPS Navigation System</h3>
                                 <p><strong>Problem:</strong> Standard GPS apps don't account for essential roadside amenities.<br><strong>Solution:</strong> A system to find the shortest path while adding stops for amenities and providing real-time travel estimates.</p>
@@ -127,7 +129,7 @@
                             </div>
                         </div>
                         <div class="project-card animate-on-scroll scale-up">
-                            <div class="project-image-container"><img src="assets/images/readme.png" alt="README.md Generator"></div>
+                            <div class="project-image-container"><img src="assets/images/readme.png" alt="README.md Generator" loading="lazy"></div>
                             <div class="project-info">
                                 <h3>README.md Generator</h3>
                                 <p><strong>Problem:</strong> Creating detailed README files is repetitive and tedious.<br><strong>Solution:</strong> A Python CLI tool that automates the creation of professional READMEs through a series of prompts.</p>
@@ -142,7 +144,6 @@
             </div>
         </section>
 
-        <!-- Skills Section -->
         <section id="skills" class="skills-section">
             <div class="container">
                 <h2 class="section-title animate-on-scroll fade-in">Skills</h2>
@@ -164,7 +165,6 @@
             </div>
         </section>
 
-        <!-- Contact Section -->
         <section id="contact" class="contact-section">
             <div class="container">
                 <h2 class="section-title animate-on-scroll fade-in">Get In Touch</h2>
@@ -191,7 +191,7 @@
                 <a href="https://github.com/aravindp602" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github" aria-hidden="true"></i></a>
                 <a href="https://www.linkedin.com/in/aravind-p-5b1110256/" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
                 <a href="#" target="_blank" aria-label="Twitter Profile"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                <a href="https://www.instagram.com/aravind_p_71?igsh=MWJ2aWdkNnl6emF2Mg" target="_blank" aria-label="Instagram Profile"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/aravind_p_71/" target="_blank" aria-label="Instagram Profile"><i class="fab fa-instagram" aria-hidden="true"></i></a>
             </div>
             <p>© <span id="current-year"></span> Aravind P. All rights reserved.</p>
         </div>
